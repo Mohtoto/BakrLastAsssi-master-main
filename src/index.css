@@ -1,0 +1,305 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap'); */
+@import 'https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0/dist/themes/dark.css';
+
+
+
+*{
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto' , sans-serif;
+}
+
+
+
+
+
+#View{
+  background-color: whitesmoke;
+  min-height: 100vh;
+
+}
+.row{
+
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container{
+
+  padding:80px 0px;
+}
+
+
+
+.navbar{
+
+
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+}
+
+
+nav ul {
+
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  list-style-type: none;
+  font-size: 24px;
+
+}
+
+nav ul li a {
+
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+
+.border{ 
+
+  border-bottom: 4px solid black;
+
+  display: flex;
+ 
+  padding: 12px;
+}
+
+.icons{
+
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  
+}
+
+
+
+.logo{
+
+  width: 100px;
+  object-fit: contain;
+}
+
+/* .main__section{
+
+  /* height: 100vh; */
+  /* background-image: url("/src/assets/mainPic.png");
+ 
+  background-repeat: no-repeat;
+  background-size: 100% 110%; */
+  
+  
+
+
+.pic{
+
+  width: 100%;
+ 
+  height: 700px;
+  position: relative;
+
+}
+
+.wrapper__black{
+
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pic2{
+
+  width: 100px;
+}
+
+.title{
+
+font-size: 70px;
+letter-spacing: 2px;
+}
+
+.title2{
+
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+.mainCont{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 35%;
+  left: 30px;
+  color: white;
+
+
+
+
+}
+
+.button{
+
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  margin-top: 20px;
+  position: absolute;
+  top: 60%;
+  left: 15%;
+
+
+
+
+}
+
+.title__Collec{
+  font-size: 40px;
+  letter-spacing: 2px;
+
+}
+
+.button__Collec{
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  margin-top: 20px;
+
+}
+
+/* VIEW  PAGE */
+
+
+.logoView{
+
+padding: 20px;
+}
+
+
+.Cont__View{
+  width: 60%;
+  display: flex;
+  align-items:center ;
+  justify-content: space-between;
+}
+
+.Cont__View h1 {
+
+  font-size: 40px;
+}
+
+.mainPcs{
+
+  display: flex;
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+  gap: 20rem;
+  padding: 20px;
+
+
+}
+
+.imags{
+
+width: 100%;
+/* height: 1000px; */
+height: 1000px;
+object-fit: contain;
+
+
+}
+/* 
+.imgSmall{
+
+  width: ;
+} */
+
+.img__holder{
+  
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   border: 2px solid black;
+  
+   margin-top: 120px;
+
+
+    
+
+}
+
+
+.dialog__info::part(panel){
+  text-align: left;
+  width:40%;
+  color:black;
+  margin:0;
+  padding:0;
+
+
+}
+
+
+/* .tomato-button::part(base){
+
+  background: var(--sl-color-neutral-0);
+  border: solid 1px tomato;
+  
+} */
+
+
+
+.tomato-button::part(label) {
+  color: tomato;
+  --size: 6rem;
+}
+
+
+.dialogPic{
+
+  width: 50px;
+  object-fit: contain;
+  margin-left: 45%;
+  border: 2px solid black;
+  
+
+
+
+
+}
+
+
+.headerh1{
+
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+
+
+}

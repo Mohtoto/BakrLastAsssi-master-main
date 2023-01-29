@@ -34,6 +34,8 @@
 
 
 
+
+
 .navbar{
 
 
@@ -89,7 +91,7 @@ nav ul li a {
 
 .logo{
 
-  width: 100px;
+  width: 150px;
   object-fit: contain;
 }
 
@@ -199,8 +201,9 @@ padding: 20px;
 }
 
 
+
 .Cont__View{
-  width: 60%;
+  width: 69%;
   display: flex;
   align-items:center ;
   justify-content: space-between;
@@ -208,7 +211,8 @@ padding: 20px;
 
 .Cont__View h1 {
 
-  font-size: 40px;
+  font-size: 60px;
+
 }
 
 .mainPcs{
@@ -300,6 +304,24 @@ object-fit: contain;
   font-size: 20px;
   margin-bottom: 20px;
   text-align: center;
+
+
+}
+
+
+/* OUR PAGE  */
+
+.Our-image__holder{
+
+  width: 100%;
+  margin-top: 40px;
+
+}
+.Our-image{
+
+  width: 100%;
+  height: 1000px;
+
 
 
 }
